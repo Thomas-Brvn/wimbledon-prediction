@@ -72,8 +72,10 @@ Precision du modele sur Wimbledon 2025 par tour :
 | R16 | 87.5% |
 | QF | 100% |
 | SF | 100% |
-| F | 0% |
+| F | 0%* |
 | **Total** | **66.3%** |
+
+*La finale opposait Sinner a Alcaraz. Le modele predisait Alcaraz a 52%, Sinner a gagne. Match tres serre, le modele voyait un 50-50.
 
 Le modele performe mieux dans les tours avances ou les differences de niveau sont plus marquees.
 
