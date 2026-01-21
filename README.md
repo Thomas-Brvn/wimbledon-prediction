@@ -63,10 +63,10 @@ Le modele sort une probabilite que le Joueur 1 gagne. Pour reduire le biais lie 
 ## Resultats
 
 Sur les matchs 2025 mis de cote :
-- Precision du modele : ~61%
-- Baseline (ELO seul) : ~56%
+- Precision du modele : ~68%
+- Baseline (ELO seul) : ~65%
 
-Pas assez pour battre les bookmakers, mais mieux que les predictions basees uniquement sur le classement.
+Mieux que les predictions basees uniquement sur le classement.
 
 ## Installation
 
