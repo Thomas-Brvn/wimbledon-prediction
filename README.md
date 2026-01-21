@@ -94,7 +94,7 @@ Pour voir les predictions et resultats Wimbledon 2025 :
 
 ## Sources de Donnees
 
-Donnees de matchs ATP provenant du repository [tennis_atp](https://github.com/JeffSackmann/tennis_atp) de [Jeff Sackmann](https://github.com/JeffSackmann) (domaine public).
+Donnees de matchs ATP provenant du repository [tennis_atp](https://github.com/JeffSackmann/tennis_atp) de [Jeff Sackmann](https://github.com/JeffSackmann).
 
 ## Limites
 
