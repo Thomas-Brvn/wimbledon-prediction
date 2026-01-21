@@ -62,11 +62,20 @@ Le modele sort une probabilite que le Joueur 1 gagne. Pour reduire le biais lie 
 
 ## Resultats
 
-Sur les matchs 2025 mis de cote :
-- Precision du modele : ~68%
-- Baseline (ELO seul) : ~65%
+Precision du modele sur Wimbledon 2025 par tour :
 
-Mieux que les predictions basees uniquement sur le classement.
+| Tour | Precision |
+|------|-----------|
+| R128 | 62.5% |
+| R64 | 62.5% |
+| R32 | 70% |
+| R16 | 87.5% |
+| QF | 100% |
+| SF | 100% |
+| F | 0% |
+| **Total** | **66.3%** |
+
+Le modele performe mieux dans les tours avances ou les differences de niveau sont plus marquees.
 
 ## Installation
 
