@@ -15,7 +15,6 @@ L'approche est simple :
 ## Structure du Projet
 
 ```
-src/
 ├── 0.CleanData.ipynb        # Charger et nettoyer les donnees ATP brutes
 ├── 1.CreateDataset.ipynb    # Feature engineering (ELO, stats glissantes)
 ├── 2.TrainModel.ipynb       # Entrainer et evaluer le modele XGBoost
