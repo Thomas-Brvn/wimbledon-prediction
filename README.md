@@ -42,6 +42,18 @@ ELO standard avec quelques ajustements :
 - K-factor dynamique : plus eleve pour les joueurs avec peu de matchs, plus bas pour les joueurs etablis
 - Bonus de reprise : leger boost apres une longue pause (100+ jours) pour tenir compte de la recuperation
 
+Les Big 3 (Federer, Nadal, Djokovic) face a tous les joueurs du circuit depuis 1985 :
+
+![Rating ELO - Big 3](images/readme_big3.png)
+
+La nouvelle generation - Sinner et Alcaraz grimpent plus vite que n'importe qui :
+
+![Rating ELO - Sinner vs Alcaraz](images/readme_sinner_alcaraz.png)
+
+L'ELO par surface montre bien les specialites : Nadal domine sur terre battue avec un ecart net par rapport au dur et au gazon :
+
+![Nadal - ELO par surface](images/readme_nadal_surfaces.png)
+
 ### Features
 
 Pour chaque match, 81 features sont calculees comme differences entre Joueur 1 et Joueur 2 :
@@ -59,6 +71,10 @@ Classifieur XGBoost avec ces parametres (trouves via recherche aleatoire sur 200
 - Echantillonnage lignes 0.9, colonnes 0.95
 
 Le modele sort une probabilite que le Joueur 1 gagne. Pour reduire le biais lie a l'ordre des joueurs, les predictions sont faites depuis les deux perspectives puis moyennees.
+
+Visualisation d'un arbre de decision entraine sur les donnees :
+
+![Arbre de decision](images/decision_tree_smaller.png)
 
 ## Resultats
 
