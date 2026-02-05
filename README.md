@@ -42,17 +42,9 @@ ELO standard avec quelques ajustements :
 - K-factor dynamique : plus eleve pour les joueurs avec peu de matchs, plus bas pour les joueurs etablis
 - Bonus de reprise : leger boost apres une longue pause (100+ jours) pour tenir compte de la recuperation
 
-Les Big 3 (Federer, Nadal, Djokovic) face a tous les joueurs du circuit depuis 1985 :
+Evolution du rating ELO de Carlos Alcaraz par surface :
 
-![Rating ELO - Big 3](images/readme_big3.png)
-
-La nouvelle generation - Sinner et Alcaraz grimpent plus vite que n'importe qui :
-
-![Rating ELO - Sinner vs Alcaraz](images/readme_sinner_alcaraz.png)
-
-L'ELO par surface montre bien les specialites : Nadal domine sur terre battue avec un ecart net par rapport au dur et au gazon :
-
-![Nadal - ELO par surface](images/readme_nadal_surfaces.png)
+![Rating ELO - Carlos Alcaraz](images/CarlosAlcaraz_elo_rating.png)
 
 ### Features
 
@@ -72,9 +64,9 @@ Classifieur XGBoost avec ces parametres (trouves via recherche aleatoire sur 200
 
 Le modele sort une probabilite que le Joueur 1 gagne. Pour reduire le biais lie a l'ordre des joueurs, les predictions sont faites depuis les deux perspectives puis moyennees.
 
-Visualisation d'un arbre de decision entraine sur les donnees :
+Visualisation d'un arbre du modele XGBoost :
 
-![Arbre de decision](images/decision_tree_smaller.png)
+![Arbre XGBoost](images/xgboost/tree_0.png)
 
 ## Resultats
 
